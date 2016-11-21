@@ -5,7 +5,7 @@ public class Solution
         var list = new List<string>();
         for (int i = 1; i <= n; ++i)
         {
-            string s = "";
+            string s = null;
             if (i % 3 == 0)
             {
                 s += "Fizz";
